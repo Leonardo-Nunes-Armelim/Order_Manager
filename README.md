@@ -1,11 +1,11 @@
 # Order Manager
 
->>> Download and install nodejs
+- Download and install nodejs
 https://nodejs.org/en/download/prebuilt-installer
 
 ## Para rodar o projeto siga o passo a passo a seguir
 
->>> Terminal 1
+- Terminal 1
 > npm install react-scripts@latest
 > npm install create-react-app
 > cd order_manager
@@ -15,18 +15,21 @@ https://nodejs.org/en/download/prebuilt-installer
 > npm add mysql2 express nodemon cors
 > npm start
 
->>> Terminal 2
+- Terminal 2
 > cd order-manager/server
 > node index.js
 
->>> Criar banco de dados e tabela no MySQL
+- Criar banco de dados e tabela no MySQL
 > A senha do MySQL deve ser "@3465@Msql@" ou alterar o "password" na variável "db" no ./order_manager/server/index.js
 > Nome do banco: order_manager
 > Nome da tabela: orders
 
->>> Schema da tabela de dados no MySQL
-> foto
-
+- Campos para criar a teabela orders
+![<alt-text>](https://github.com/Leonardo-Nunes-Armelim/Order_Manager/blob/main/img/orders_create_table.png)
+- Schema da tabela de dados no MySQL
+![<alt-text>](https://github.com/Leonardo-Nunes-Armelim/Order_Manager/blob/main/img/orders_table_schema.png)
+- Exemplo de select da tabela
+![<alt-text>](https://github.com/Leonardo-Nunes-Armelim/Order_Manager/blob/main/img/orders_table_select.png)
 
 ## Como usar
 

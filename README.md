@@ -7,21 +7,31 @@ https://nodejs.org/en/download/prebuilt-installer
 
 - Terminal 1
 > npm install react-scripts@latest
+
 > npm install create-react-app
+
 > cd order_manager
+
 > npm add formik yup
+
 > npm add axios
+
 > npm add react-router-dom
+
 > npm add mysql2 express nodemon cors
+
 > npm start
 
 - Terminal 2
 > cd order-manager/server
+
 > node index.js
 
 - Criar banco de dados e tabela no MySQL
-> A senha do MySQL deve ser "@3465@Msql@" ou alterar o "password" na variável "db" no ./order_manager/server/index.js
+A senha do MySQL deve ser "@3465@Msql@" ou alterar o "password" na variável "db" no ./order_manager/server/index.js
+
 > Nome do banco: order_manager
+
 > Nome da tabela: orders
 
 - Campos para criar a teabela orders

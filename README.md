@@ -8,7 +8,7 @@ https://nodejs.org/en/download/prebuilt-installer
 >>> Terminal 1
 > npm install react-scripts@latest
 > npm install create-react-app
-> cd order-manager
+> cd order_manager
 > npm add formik yup
 > npm add axios
 > npm add react-router-dom

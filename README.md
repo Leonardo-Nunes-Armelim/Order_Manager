@@ -49,6 +49,9 @@ Na home page você pode navegar entre as abas existentes para acessar funções 
 ### Order: http://localhost:3000/order
 Nessa página você pode enviar um JSON usano a caixa de texto e clicar em "Criar" para enviar a solicitação de criação do pedido desejado
 
+### Listagem de todos os pedidos: http://localhost:3001/order/list
+Nesse URL é possivel ver todos os pedidos feitos de forma ordenada
+
 Uma formato possivel de JSON para envio seria como:
 ```json
 {
